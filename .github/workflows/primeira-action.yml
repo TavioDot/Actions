@@ -5,6 +5,14 @@ jobs:
        runs-on: ubuntu-latest
        steps:
          - name: Print greeting
-           run: echo "Hello World!"
+           run: |
+               echo "Primeira Saida"
+               echo "Segunda Saida"
+               echo "Terceira Saida"
+               echo "Quarta Saida"
+               echo "Quinta Saida"
+               echo "Sexta Saida"
+               echo "Setima Saida"
+               echo "Oitava Saida"
          - name: Print goodbye
            run: echo "Done - bye!"
